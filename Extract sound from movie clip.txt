@@ -1,0 +1,7 @@
+import moviepy.editor
+
+video=moviepy.editor.VideoFileClip('path\one.mp4')
+
+audio=video.audio
+
+audio.write_audiofile('path\one.mp3')
